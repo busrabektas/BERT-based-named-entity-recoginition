@@ -1,0 +1,858 @@
+[
+    {
+        "sentence": "John Smith works at Microsoft in Seattle.",
+        "entities": [
+            {
+                "word": "John",
+                "entity_label": "B-per",
+                "score": 0.8431000113487244,
+                "start": 0,
+                "end": 4
+            },
+            {
+                "word": "Smith",
+                "entity_label": "I-per",
+                "score": 0.8585000038146973,
+                "start": 5,
+                "end": 10
+            },
+            {
+                "word": "works at",
+                "entity_label": "O",
+                "score": 0.8788999915122986,
+                "start": 11,
+                "end": 19
+            },
+            {
+                "word": "Microsoft",
+                "entity_label": "B-org",
+                "score": 0.9128000140190125,
+                "start": 20,
+                "end": 29
+            },
+            {
+                "word": "in",
+                "entity_label": "O",
+                "score": 0.9366000294685364,
+                "start": 30,
+                "end": 32
+            },
+            {
+                "word": "Seattle",
+                "entity_label": "B-geo",
+                "score": 0.3971000015735626,
+                "start": 33,
+                "end": 40
+            },
+            {
+                "word": ".",
+                "entity_label": "O",
+                "score": 0.9290000200271606,
+                "start": 40,
+                "end": 41
+            }
+        ]
+    },
+    {
+        "sentence": "The Eiffel Tower in Paris attracts millions of tourists every year.",
+        "entities": [
+            {
+                "word": "The",
+                "entity_label": "O",
+                "score": 0.8356000185012817,
+                "start": 0,
+                "end": 3
+            },
+            {
+                "word": "E",
+                "entity_label": "B-geo",
+                "score": 0.2824000120162964,
+                "start": 4,
+                "end": 5
+            },
+            {
+                "word": "##iffel Tower",
+                "entity_label": "I-loc",
+                "score": 0.25369998812675476,
+                "start": 5,
+                "end": 16
+            },
+            {
+                "word": "in",
+                "entity_label": "O",
+                "score": 0.9365000128746033,
+                "start": 17,
+                "end": 19
+            },
+            {
+                "word": "Paris",
+                "entity_label": "B-geo",
+                "score": 0.47850000858306885,
+                "start": 20,
+                "end": 25
+            },
+            {
+                "word": "attracts millions of tourists every year.",
+                "entity_label": "O",
+                "score": 0.9843000173568726,
+                "start": 26,
+                "end": 67
+            }
+        ]
+    },
+    {
+        "sentence": "Apple Inc. announced a new iPhone during their event in California.",
+        "entities": [
+            {
+                "word": "Apple",
+                "entity_label": "B-org",
+                "score": 0.9199000000953674,
+                "start": 0,
+                "end": 5
+            },
+            {
+                "word": "Inc.",
+                "entity_label": "I-org",
+                "score": 0.6008999943733215,
+                "start": 6,
+                "end": 10
+            },
+            {
+                "word": "announced a new iPhone during their event in",
+                "entity_label": "O",
+                "score": 0.9635000228881836,
+                "start": 11,
+                "end": 55
+            },
+            {
+                "word": "California",
+                "entity_label": "B-geo",
+                "score": 0.37139999866485596,
+                "start": 56,
+                "end": 66
+            },
+            {
+                "word": ".",
+                "entity_label": "O",
+                "score": 0.9776999950408936,
+                "start": 66,
+                "end": 67
+            }
+        ]
+    },
+    {
+        "sentence": "The United Nations headquarters is located in New York City.",
+        "entities": [
+            {
+                "word": "The",
+                "entity_label": "O",
+                "score": 0.972599983215332,
+                "start": 0,
+                "end": 3
+            },
+            {
+                "word": "United",
+                "entity_label": "B-org",
+                "score": 0.9315999746322632,
+                "start": 4,
+                "end": 10
+            },
+            {
+                "word": "Nations",
+                "entity_label": "I-org",
+                "score": 0.7799000144004822,
+                "start": 11,
+                "end": 18
+            },
+            {
+                "word": "headquarters is located in",
+                "entity_label": "O",
+                "score": 0.9829999804496765,
+                "start": 19,
+                "end": 45
+            },
+            {
+                "word": "New York",
+                "entity_label": "B-geo",
+                "score": 0.5453000068664551,
+                "start": 46,
+                "end": 54
+            },
+            {
+                "word": "City",
+                "entity_label": "I-geo",
+                "score": 0.3407999873161316,
+                "start": 55,
+                "end": 59
+            },
+            {
+                "word": ".",
+                "entity_label": "O",
+                "score": 0.9057000279426575,
+                "start": 59,
+                "end": 60
+            }
+        ]
+    },
+    {
+        "sentence": "Barack Obama was born in Hawaii and served as the 44th President of the United States.",
+        "entities": [
+            {
+                "word": "Barack",
+                "entity_label": "B-per",
+                "score": 0.7925000190734863,
+                "start": 0,
+                "end": 6
+            },
+            {
+                "word": "Obama",
+                "entity_label": "I-per",
+                "score": 0.9156000018119812,
+                "start": 7,
+                "end": 12
+            },
+            {
+                "word": "was born in",
+                "entity_label": "O",
+                "score": 0.8276000022888184,
+                "start": 13,
+                "end": 24
+            },
+            {
+                "word": "Hawaii",
+                "entity_label": "B-geo",
+                "score": 0.5791000127792358,
+                "start": 25,
+                "end": 31
+            },
+            {
+                "word": "and served as the 44th President of the",
+                "entity_label": "O",
+                "score": 0.6748999953269958,
+                "start": 32,
+                "end": 71
+            },
+            {
+                "word": "United States",
+                "entity_label": "B-loc",
+                "score": 0.27480000257492065,
+                "start": 72,
+                "end": 85
+            },
+            {
+                "word": ".",
+                "entity_label": "O",
+                "score": 0.6320000290870667,
+                "start": 85,
+                "end": 86
+            }
+        ]
+    },
+    {
+        "sentence": "Amazon.com was founded by Jeff Bezos in 1994.",
+        "entities": [
+            {
+                "word": "Amazon",
+                "entity_label": "B-org",
+                "score": 0.8248999714851379,
+                "start": 0,
+                "end": 6
+            },
+            {
+                "word": ". com",
+                "entity_label": "I-org",
+                "score": 0.5175999999046326,
+                "start": 6,
+                "end": 10
+            },
+            {
+                "word": "was founded by",
+                "entity_label": "O",
+                "score": 0.7623999714851379,
+                "start": 11,
+                "end": 25
+            },
+            {
+                "word": "Jeff",
+                "entity_label": "B-per",
+                "score": 0.8511999845504761,
+                "start": 26,
+                "end": 30
+            },
+            {
+                "word": "Bezos",
+                "entity_label": "I-per",
+                "score": 0.7671999931335449,
+                "start": 31,
+                "end": 36
+            },
+            {
+                "word": "in 1994.",
+                "entity_label": "O",
+                "score": 0.7653999924659729,
+                "start": 37,
+                "end": 45
+            }
+        ]
+    },
+    {
+        "sentence": "NASA launched the Perseverance rover to Mars in July 2020.",
+        "entities": [
+            {
+                "word": "NASA",
+                "entity_label": "B-org",
+                "score": 0.8263999819755554,
+                "start": 0,
+                "end": 4
+            },
+            {
+                "word": "launched the Perseverance rover to",
+                "entity_label": "O",
+                "score": 0.796500027179718,
+                "start": 5,
+                "end": 39
+            },
+            {
+                "word": "Mars",
+                "entity_label": "B-loc",
+                "score": 0.39309999346733093,
+                "start": 40,
+                "end": 44
+            },
+            {
+                "word": "in July 2020.",
+                "entity_label": "O",
+                "score": 0.8027999997138977,
+                "start": 45,
+                "end": 58
+            }
+        ]
+    },
+    {
+        "sentence": "She earned €5,000 from her freelance project last month.",
+        "entities": [
+            {
+                "word": "She earned €5, 000 from her freelance project last month.",
+                "entity_label": "O",
+                "score": 0.9868999719619751,
+                "start": 0,
+                "end": 56
+            }
+        ]
+    },
+    {
+        "sentence": "The University of Oxford is one of the oldest universities in the world.",
+        "entities": [
+            {
+                "word": "The",
+                "entity_label": "O",
+                "score": 0.7322999835014343,
+                "start": 0,
+                "end": 3
+            },
+            {
+                "word": "University",
+                "entity_label": "B-org",
+                "score": 0.8086000084877014,
+                "start": 4,
+                "end": 14
+            },
+            {
+                "word": "of Oxford",
+                "entity_label": "I-org",
+                "score": 0.5978000164031982,
+                "start": 15,
+                "end": 24
+            },
+            {
+                "word": "is one of the oldest universities in the world.",
+                "entity_label": "O",
+                "score": 0.9839000105857849,
+                "start": 25,
+                "end": 72
+            }
+        ]
+    },
+    {
+        "sentence": "Harvard University hosted a seminar with renowned economist Janet Yellen.",
+        "entities": [
+            {
+                "word": "Harvard",
+                "entity_label": "B-org",
+                "score": 0.9205999970436096,
+                "start": 0,
+                "end": 7
+            },
+            {
+                "word": "University",
+                "entity_label": "I-org",
+                "score": 0.769599974155426,
+                "start": 8,
+                "end": 18
+            },
+            {
+                "word": "hosted a seminar with renowned economist",
+                "entity_label": "O",
+                "score": 0.9527999758720398,
+                "start": 19,
+                "end": 59
+            },
+            {
+                "word": "Janet",
+                "entity_label": "B-per",
+                "score": 0.8640999794006348,
+                "start": 60,
+                "end": 65
+            },
+            {
+                "word": "Yellen",
+                "entity_label": "I-per",
+                "score": 0.8496000170707703,
+                "start": 66,
+                "end": 72
+            },
+            {
+                "word": ".",
+                "entity_label": "O",
+                "score": 0.9677000045776367,
+                "start": 72,
+                "end": 73
+            }
+        ]
+    },
+    {
+        "sentence": "Stanford University is located in Stanford, California.",
+        "entities": [
+            {
+                "word": "Stanford",
+                "entity_label": "B-org",
+                "score": 0.9136000275611877,
+                "start": 0,
+                "end": 8
+            },
+            {
+                "word": "University",
+                "entity_label": "I-org",
+                "score": 0.7580999732017517,
+                "start": 9,
+                "end": 19
+            },
+            {
+                "word": "is located in",
+                "entity_label": "O",
+                "score": 0.9538999795913696,
+                "start": 20,
+                "end": 33
+            },
+            {
+                "word": "Stanford",
+                "entity_label": "B-geo",
+                "score": 0.5128999948501587,
+                "start": 34,
+                "end": 42
+            },
+            {
+                "word": ",",
+                "entity_label": "O",
+                "score": 0.9186999797821045,
+                "start": 42,
+                "end": 43
+            },
+            {
+                "word": "California",
+                "entity_label": "B-geo",
+                "score": 0.31850001215934753,
+                "start": 44,
+                "end": 54
+            },
+            {
+                "word": ".",
+                "entity_label": "O",
+                "score": 0.9064000248908997,
+                "start": 54,
+                "end": 55
+            }
+        ]
+    },
+    {
+        "sentence": "Professor Andrew Ng teaches machine learning at Stanford University.",
+        "entities": [
+            {
+                "word": "Professor Andrew",
+                "entity_label": "B-per",
+                "score": 0.7297999858856201,
+                "start": 0,
+                "end": 16
+            },
+            {
+                "word": "Ng",
+                "entity_label": "I-per",
+                "score": 0.9162999987602234,
+                "start": 17,
+                "end": 19
+            },
+            {
+                "word": "teaches machine learning at",
+                "entity_label": "O",
+                "score": 0.9075999855995178,
+                "start": 20,
+                "end": 47
+            },
+            {
+                "word": "Stanford",
+                "entity_label": "B-org",
+                "score": 0.887499988079071,
+                "start": 48,
+                "end": 56
+            },
+            {
+                "word": "University",
+                "entity_label": "I-org",
+                "score": 0.7422000169754028,
+                "start": 57,
+                "end": 67
+            },
+            {
+                "word": ".",
+                "entity_label": "O",
+                "score": 0.9277999997138977,
+                "start": 67,
+                "end": 68
+            }
+        ]
+    },
+    {
+        "sentence": "MIT developed a new technology for renewable energy sources.",
+        "entities": [
+            {
+                "word": "MIT",
+                "entity_label": "B-org",
+                "score": 0.8982999920845032,
+                "start": 0,
+                "end": 3
+            },
+            {
+                "word": "developed a new technology for renewable energy sources.",
+                "entity_label": "O",
+                "score": 0.9943000078201294,
+                "start": 4,
+                "end": 60
+            }
+        ]
+    },
+    {
+        "sentence": "Leonardo da Vinci painted the Mona Lisa in the early 16th century.",
+        "entities": [
+            {
+                "word": "Leonardo",
+                "entity_label": "B-per",
+                "score": 0.7382000088691711,
+                "start": 0,
+                "end": 8
+            },
+            {
+                "word": "da Vinci",
+                "entity_label": "I-per",
+                "score": 0.8001000285148621,
+                "start": 9,
+                "end": 17
+            },
+            {
+                "word": "painted the Mona",
+                "entity_label": "O",
+                "score": 0.7519000172615051,
+                "start": 18,
+                "end": 34
+            },
+            {
+                "word": "Lisa",
+                "entity_label": "B-per",
+                "score": 0.30300000309944153,
+                "start": 35,
+                "end": 39
+            },
+            {
+                "word": "in the early 16th century.",
+                "entity_label": "O",
+                "score": 0.9059000015258789,
+                "start": 40,
+                "end": 66
+            }
+        ]
+    },
+    {
+        "sentence": "The Louvre Museum in Paris houses thousands of art pieces.",
+        "entities": [
+            {
+                "word": "The",
+                "entity_label": "O",
+                "score": 0.907800018787384,
+                "start": 0,
+                "end": 3
+            },
+            {
+                "word": "Louvre",
+                "entity_label": "B-org",
+                "score": 0.37400001287460327,
+                "start": 4,
+                "end": 10
+            },
+            {
+                "word": "Museum",
+                "entity_label": "I-org",
+                "score": 0.3393999934196472,
+                "start": 11,
+                "end": 17
+            },
+            {
+                "word": "in",
+                "entity_label": "O",
+                "score": 0.7997000217437744,
+                "start": 18,
+                "end": 20
+            },
+            {
+                "word": "Paris",
+                "entity_label": "B-geo",
+                "score": 0.569100022315979,
+                "start": 21,
+                "end": 26
+            },
+            {
+                "word": "houses thousands of art pieces.",
+                "entity_label": "O",
+                "score": 0.9922999739646912,
+                "start": 27,
+                "end": 58
+            }
+        ]
+    },
+    {
+        "sentence": "Beyoncé released her latest album during her concert in London.",
+        "entities": [
+            {
+                "word": "Beyoncé",
+                "entity_label": "B-per",
+                "score": 0.6247000098228455,
+                "start": 0,
+                "end": 7
+            },
+            {
+                "word": "released her latest album during her concert in",
+                "entity_label": "O",
+                "score": 0.9854999780654907,
+                "start": 8,
+                "end": 55
+            },
+            {
+                "word": "London",
+                "entity_label": "B-geo",
+                "score": 0.7702000141143799,
+                "start": 56,
+                "end": 62
+            },
+            {
+                "word": ".",
+                "entity_label": "O",
+                "score": 0.9797999858856201,
+                "start": 62,
+                "end": 63
+            }
+        ]
+    },
+    {
+        "sentence": "The Broadway musical premiered on New York City's Times Square.",
+        "entities": [
+            {
+                "word": "The Broadway musical premiered on",
+                "entity_label": "O",
+                "score": 0.8406999707221985,
+                "start": 0,
+                "end": 33
+            },
+            {
+                "word": "New",
+                "entity_label": "B-loc",
+                "score": 0.3625999987125397,
+                "start": 34,
+                "end": 37
+            },
+            {
+                "word": "York",
+                "entity_label": "B-geo",
+                "score": 0.21160000562667847,
+                "start": 38,
+                "end": 42
+            },
+            {
+                "word": "City",
+                "entity_label": "I-loc",
+                "score": 0.2766999900341034,
+                "start": 43,
+                "end": 47
+            },
+            {
+                "word": "' s",
+                "entity_label": "O",
+                "score": 0.8468999862670898,
+                "start": 47,
+                "end": 49
+            },
+            {
+                "word": "Times",
+                "entity_label": "B-geo",
+                "score": 0.4345000088214874,
+                "start": 50,
+                "end": 55
+            },
+            {
+                "word": "Square",
+                "entity_label": "I-geo",
+                "score": 0.30090001225471497,
+                "start": 56,
+                "end": 62
+            },
+            {
+                "word": ".",
+                "entity_label": "O",
+                "score": 0.7315999865531921,
+                "start": 62,
+                "end": 63
+            }
+        ]
+    },
+    {
+        "sentence": "Shakespeare's play Hamlet is performed regularly at the Globe Theatre.",
+        "entities": [
+            {
+                "word": "Shakespeare",
+                "entity_label": "B-per",
+                "score": 0.4171999990940094,
+                "start": 0,
+                "end": 11
+            },
+            {
+                "word": "' s play Hamlet is performed regularly at the",
+                "entity_label": "O",
+                "score": 0.958299994468689,
+                "start": 11,
+                "end": 55
+            },
+            {
+                "word": "Globe",
+                "entity_label": "B-org",
+                "score": 0.5444999933242798,
+                "start": 56,
+                "end": 61
+            },
+            {
+                "word": "Theatre.",
+                "entity_label": "O",
+                "score": 0.5800999999046326,
+                "start": 62,
+                "end": 70
+            }
+        ]
+    },
+    {
+        "sentence": "The Amazon Rainforest spans across nine countries in South America.",
+        "entities": [
+            {
+                "word": "The Amazon Rainforest spans across nine countries in",
+                "entity_label": "O",
+                "score": 0.8765000104904175,
+                "start": 0,
+                "end": 52
+            },
+            {
+                "word": "South",
+                "entity_label": "B-geo",
+                "score": 0.37700000405311584,
+                "start": 53,
+                "end": 58
+            },
+            {
+                "word": "America",
+                "entity_label": "I-geo",
+                "score": 0.3790999948978424,
+                "start": 59,
+                "end": 66
+            },
+            {
+                "word": ".",
+                "entity_label": "O",
+                "score": 0.9645000100135803,
+                "start": 66,
+                "end": 67
+            }
+        ]
+    },
+    {
+        "sentence": "Lake Superior is the largest of the Great Lakes in North America.",
+        "entities": [
+            {
+                "word": "Lake",
+                "entity_label": "B-loc",
+                "score": 0.3506999909877777,
+                "start": 0,
+                "end": 4
+            },
+            {
+                "word": "Superior",
+                "entity_label": "I-loc",
+                "score": 0.3718000054359436,
+                "start": 5,
+                "end": 13
+            },
+            {
+                "word": "is the largest of the",
+                "entity_label": "O",
+                "score": 0.8849999904632568,
+                "start": 14,
+                "end": 35
+            },
+            {
+                "word": "Great",
+                "entity_label": "B-loc",
+                "score": 0.38280001282691956,
+                "start": 36,
+                "end": 41
+            },
+            {
+                "word": "Lakes",
+                "entity_label": "I-loc",
+                "score": 0.4645000100135803,
+                "start": 42,
+                "end": 47
+            },
+            {
+                "word": "in",
+                "entity_label": "O",
+                "score": 0.6823999881744385,
+                "start": 48,
+                "end": 50
+            },
+            {
+                "word": "North",
+                "entity_label": "B-loc",
+                "score": 0.453900009393692,
+                "start": 51,
+                "end": 56
+            },
+            {
+                "word": "America",
+                "entity_label": "I-loc",
+                "score": 0.3497999906539917,
+                "start": 57,
+                "end": 64
+            },
+            {
+                "word": ".",
+                "entity_label": "O",
+                "score": 0.906000018119812,
+                "start": 64,
+                "end": 65
+            }
+        ]
+    }
+]
